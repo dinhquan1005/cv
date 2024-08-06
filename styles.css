@@ -1,0 +1,125 @@
+/* Đặt các kiểu chung */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside {
+  flex: 1;
+  background-color: #455a64;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.profile-img img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.contact-info p,
+.objective,
+.skills,
+.hobbies {
+  text-align: left;
+  margin: 10px 0;
+}
+
+main {
+  flex: 2;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #455a64;
+  border-bottom: 2px solid #455a64;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.school,
+.job,
+.activity,
+.certificates,
+.awards,
+.additional-info,
+.references {
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Tạo các thanh kỹ năng */
+.skills p,
+.hobbies p {
+  margin: 5px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #f39c12;
+  border-radius: 5px;
+}
+
+.skills .progress:nth-of-type(1) {
+  /* Node js */
+  width: 80%;
+}
+
+.skills .progress:nth-of-type(2) {
+  /* C# */
+  width: 90%;
+}
+
+.skills .progress:nth-of-type(3) {
+  /* Java */
+  width: 70%;
+}
+
+.skills .progress:nth-of-type(4) {
+  /* Tiếng Anh */
+  width: 85%;
+}
+
+.hobbies .progress:nth-of-type(1) {
+  /* Đọc sách */
+  width: 90%;
+}
+
+.hobbies .progress:nth-of-type(2) {
+  /* Đá bóng */
+  width: 55%;
+}
+
+.hobbies .progress:nth-of-type(3) {
+  /* Nghe nhạc */
+  width: 95%;
+}
